@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Gabriel Freitas">
+    <meta name="robots" content="index, follow">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link id="css" rel="stylesheet" href="css/inputstyle.css">
+
+
+    <title>Lista01 Triángulo</title>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h1>Área do triângulo
+                <i class="bi bi-gear" title="Tema" onclick="theme()"></i>
+            </h1>
+
+            <a href="index07.html" title="Exercício anterior">
+                <div class="ant">
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+            </a>
+
+            <a href="index09.html" title="Próximo exercício">
+                <div class="prox">
+                    <i class="bi bi-chevron-right"></i>
+                </div>
+            </a>
+
+            <div class="text-exerc">
+                <h2>Calcula e exibe a área do triângulo</h2>
+            </div>
+
+            <div class="row">
+                <form action="">
+                    <input type="number" class="grid1" id="number1" placeholder="Base do triângulo">
+
+                    <p class="grid2"></p>
+
+                    <input type="number" class="grid3" id="number2" placeholder="Altura do triângulo">
+
+                    <p class="grid4">=</p>
+
+                    <input class="grid5" id="resultado" type="text" placeholder="Área" disabled="">
+
+                    <button type="button" class="btn grid6" onclick="calcular()">Calcular</button>
+                </form>
+            </div>
+
+            <footer class="footer"><span>&copy;</span>&nbsp; Gabriel Freitas Souza </footer>
+
+        </div>
+    </div>
+
+    <script src="script08.js"></script>
+
+</body>
+
+</html>
